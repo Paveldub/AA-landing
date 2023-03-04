@@ -1,0 +1,21 @@
+.main-section {
+    background: rgba(125, 121, 121, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h1, span {
+        margin: 0;
+        font-family: 'Never Brat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 200px;
+        line-height: 94%;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: #07245D;
+        transform: rotate(-4.01deg);
+        display: block;
+    }
+}

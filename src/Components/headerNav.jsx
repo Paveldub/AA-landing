@@ -1,14 +1,18 @@
 export const headerNav = [
     {
-        "name": 'Utility'
+        "name": 'Utility',
+        "anchor": "#utility"
     },
     {
-        "name": 'AIRDROPS'
+        "name": 'AIRDROPS',
+        "anchor": "#airdrops"
     },
     {
-        "name": 'BIRDS'
+        "name": 'BIRDS',
+        "anchor": "#birds"
     },
     {
-        "name": 'Roadmap'
+        "name": 'Roadmap',
+        "anchor": "#roadmap"
     },
 ]

@@ -1,9 +1,11 @@
-import { Header } from './Components/Header';
+import { MainSection } from './Sections/MainSection/MainSection';
+import { SecondSection } from './Sections/SecondSection/SecondSection';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <MainSection />
+      <SecondSection />
     </div>
   );
 }
