@@ -1,4 +1,4 @@
-export const headerNav = [
+export const HEADER_NAV = [
     {
         "name": 'Utility',
         "anchor": "#utility"

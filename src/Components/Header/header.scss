@@ -36,15 +36,18 @@
     }
 
     &__mint-button {
-        font-family: 'Never Brat';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 50px;
-        line-height: 110%;
-        letter-spacing: 0.16em;
-        text-transform: uppercase;
-        color: #FFFFFF;
-        transform: rotate(-4.49deg);
+        a {
+            display: block;
+            font-family: 'Never Brat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 110%;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            transform: rotate(-4.49deg);
+        }
     }
 }
 

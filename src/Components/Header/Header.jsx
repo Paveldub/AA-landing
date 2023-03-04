@@ -1,6 +1,6 @@
 import './header.scss'
 import logo from '../../assets/logo.svg'
-import { headerNav } from './headerNav'
+import { HEADER_NAV } from '../../constants/headerNav'
 
 export const Header = () => {
 
@@ -12,7 +12,7 @@ export const Header = () => {
                 </div>
                 <nav className='header__nav'>
                     <ul className='header__nav-list'>
-                        {headerNav.map((item, index) => (
+                        {HEADER_NAV.map((item, index) => (
                             <li className="header__nav-item" key={`${item}_${index}`}>
                                 <a href={item.anchor}>{item.name}</a>
                             </li>
